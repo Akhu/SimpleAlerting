@@ -1,0 +1,63 @@
+{
+  "last_update": "2020-09-14T16:48:44.530231698+02:00",
+  "services": [
+    {
+      "name": "IDS",
+      "health": "yellow",
+      "result": {
+        "WarnLevel": "green",
+        "Name": "ids-antar",
+        "Messages": 0,
+        "Consumers": 100
+      }
+    },
+    {
+      "name": "Antar Reply",
+      "health": "yellow",
+      "result": {
+        "WarnLevel": "green",
+        "Name": "ids-antar_reply_aboutgoods",
+        "Messages": 0,
+        "Consumers": 10
+      }
+    },
+    {
+      "name": "ES Cluster",
+      "health": "green",
+      "result": {
+        "WarnLevel": "green",
+        "status": "green",
+        "nodeTotal": 3,
+        "nodeData": 3,
+        "shards": 660,
+        "pri": 464,
+        "relo": 0,
+        "init": 0,
+        "unassign": 0,
+        "pending_tasks": 0,
+        "max_task_wait_time": "-",
+        "active_shards_percent": 100
+      }
+    },
+    {
+      "name": "Ping Antar",
+      "health": "yellow",
+      "result": {
+        "WarnLevel": "green",
+        "attempts": 10,
+        "successes": 10,
+        "ratio": 100
+      }
+    },
+    {
+      "name": "Ping Naqahdah",
+      "health": "red",
+      "result": {
+        "WarnLevel": "green",
+        "attempts": 20,
+        "successes": 20,
+        "ratio": 100
+      }
+    }
+  ]
+}

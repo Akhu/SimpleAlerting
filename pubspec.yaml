@@ -32,6 +32,7 @@ dependencies:
   font_awesome_flutter: ^8.8.0
   flutter_spinkit: ^4.1.2
   google_fonts: ^1.1.0
+  path_provider: ^1.6.14
 
 dependency_overrides:
   font_awesome_flutter:
@@ -53,8 +54,10 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
+  assets:
+     - assets/mockData1.json
+     - assets/mockData0.json
+     - assets/mockData2.json
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
